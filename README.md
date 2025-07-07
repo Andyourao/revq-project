@@ -1,6 +1,6 @@
 # Nerfies
 
-This is the repository that contains source code for the ReVQ project, which is a novel approach to vector quantization (VQ) that enhances the performance of VQ-VAEs. The project is based on the paper "ReVQ: Rectifier Vector Quantization for Efficient VQ-VAE" by Qihang Rao, WenZhao Zheng, Jie Zhou, and others.
+This is the repository that contains source code for the ReVQ project, which is a novel approach to vector quantization (VQ) that enhances the performance of VQ-VAEs. The project is based on the paper "ReVQ: Rectifier Vector Quantization for Efficient VQ-VAE" by Qihang Rao, WenZhao Zheng, JiWen Lu and Jie Zhou.
 
 citation:
 ```
