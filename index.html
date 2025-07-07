@@ -1,3 +1,6 @@
+<!--TODO:修改链接
+        增加HF DEMO-->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -43,7 +46,7 @@
             <span class="author-block">
               <a href="https://utkarshsinha.com">Qihang Rao</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://utkarshsinha.com">WenZhao Zheng</a><sup>1</sup>,</span>
+              <a href="https://utkarshsinha.com">WenZhao Zheng</a><sup>2</sup>,</span>
             <span class="author-block">
               <a href="https://jonbarron.info">Jie Zhou</a><sup>1</sup>,
             </span>
@@ -54,6 +57,7 @@
 
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>Tsinghua University</span>
+            <span class="author-block"><sup>2</sup>University of Califorinia, Berkeley</span>
           </div>
 
           <div class="column has-text-centered">
@@ -276,7 +280,7 @@
             We conduct a comparative analysis of our ReVQ model against leading VQ-VAEs on ImageNet.
             Evaluations are conducted on the validation, employing four standard metrics: PSNR, SSIM, LPIPS, and rFID.
             Two salient observations emerge from our results. 
-            First, the model with a token length of 512 demonstrates superior performance across all metrics, surpassing both ``Fine Tuning'' and ``Frozen'' counterparts. 
+            First, the model with a token length of 512 demonstrates superior performance across all metrics, surpassing both "Fine Tuning" and "Frozen" counterparts. 
             Additionally, the configuration with a token length of 256 and a codebook size of 262144 achieves notable outcomes, 
             surpassing all other 256 token length models except MaskBit.
             Second, our model exhibits a significant advantage in training efficiency. 
@@ -304,7 +308,7 @@
         <div class="content has-text-centered">
           <img width="90%" src="./static/revq/4.png" class="content-image" alt="exp-2">
         </div>
-        <div class="columns is-centered">
+        <div class="content has-text-justified">
         <p>
           Fig. 6 demonstrates the superiority of the multi-group strategy over the single-group strategy in quantization. 
           We randomly initialized several 2D data points, with each data point represented by 2 tokens. 
@@ -317,7 +321,7 @@
         </div>
 
         <h3 class="title is-4">Non-Activation Reset Strategy</h3>
-        <div class="columns is-centered">
+        <div class="content has-text-justified">
           <p>
             We first visualize the dynamic process of codebook changes under this strategy in Fig. 7. 
             We randomly initialized several 2D data points, each represented by 1 token. 
@@ -334,7 +338,7 @@
         <div class="content has-text-centered">
           <img width="90%" src="./static/revq/5.png" class="content-image" alt="exp-3">
         </div>
-        <div class="columns is-centered">
+        <div class="content has-text-justified">
           <p>
             We initiate our analysis by evaluating the impact of the rectifier module on model performance in Fig. 9.
             We conduct training on the ImageNet dataset using different token lengths and their corresponding codebook sizes,
